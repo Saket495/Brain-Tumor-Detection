@@ -4,7 +4,7 @@
 
 This project focuses on detecting brain tumors in MRI images using Histogram of Oriented Gradients (HOG) for feature extraction and Support Vector Machine (SVM) for classification. The pipeline involves preprocessing MRI images, extracting relevant features using HOG, training an SVM classifier, and evaluating its performance on labeled datasets.
 
-![Block Diagram](images/Block.png)
+![Block Diagram](Images/Block.png)
 
 ## Models Used
 
@@ -15,7 +15,7 @@ HOG is utilized to capture gradient and edge information from MRI scans. This me
 - Implemented using `skimage.feature.hog`.
 - Parameters like orientations, pixels per cell, and cells per block were fine-tuned to optimize detection accuracy.
 
-![HOG Feature Extraction](images/Hogext.png)
+![HOG Feature Extraction](Images/Hogext.png)
 
 ### Classification: SVM (Support Vector Machine)
 
@@ -32,7 +32,7 @@ The dataset consists of pre-labeled MRI brain images classified into tumor and n
 - Source: Brain MRI Images for Brain Tumor Detection.
 - Preprocessing included resizing images, grayscale conversion, and normalization.
 
-![Sample MRI Images](images/image.png)
+![Sample MRI Images](Images/image.png)
 
 ## Workflow
 
